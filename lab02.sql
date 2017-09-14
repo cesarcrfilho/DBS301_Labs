@@ -67,21 +67,21 @@ ORDER BY first_name ASC;
 
 ---- Question 07 ----
 -- Create a report to display last name, salary, and commission percent for all employees that earn a commission
-SELECT last_name, salary, commission_pct
+SELECT last_name, salary, (commission_pct * 100) || '%' AS "Comission %"
 FROM employees
 WHERE commission_pct IS NOT NULL
 ORDER BY last_name ASC;
 
 ---- Question 08 ----
 -- Create a report to display last name, salary, and commission percent for all employees that earn a commission.Put the report in order of descending salaries
-SELECT last_name, salary, commission_pct
+SELECT last_name, salary, (commission_pct * 100) || '%' AS "Comission %"
 FROM employees
 WHERE commission_pct IS NOT NULL
 ORDER BY salary DESC;
 
 ---- Question 09 ----
 -- Using the same criteria as the previous question, use a numeric value to determine the sort order instead of the attribute name
-SELECT last_name, salary, commission_pct
+SELECT last_name, salary, (commission_pct * 100) || '%' AS "Comission %"
 FROM employees
 WHERE commission_pct IS NOT NULL
 ORDER BY 2 DESC;
