@@ -1,5 +1,11 @@
--- DBS301
--- Lab03
+/*--------------------SENECA COLLEGE-----------------------------
+Student     : Cesar Rodrigues
+Student ID  : 127381168
+Email       : cda-conceicao-rodrig@myseneca.ca
+Date        : Sep 26 2017
+Class       : DBS301 - Database Design II and SQL Using Oracle
+Description : Lab03
+---------------------------------------------------------------*/
 
 -- Question 02
 SELECT TO_CHAR(sysdate + 1, 'Month ddth "of year" YYYY') AS "Tomorrow" 

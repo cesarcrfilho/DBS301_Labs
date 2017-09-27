@@ -1,5 +1,11 @@
--- DBS301
--- Lab02
+/*--------------------SENECA COLLEGE-----------------------------
+Student     : Cesar Rodrigues
+Student ID  : 127381168
+Email       : cda-conceicao-rodrig@myseneca.ca
+Date        : Sep 26 2017
+Class       : DBS301 - Database Design II and SQL Using Oracle
+Description : Lab02
+---------------------------------------------------------------*/
 
 ---- Question 01 ----
 -- Display the employee_id, last name and salary of employees earning in the range of $8000 to $15,000.
