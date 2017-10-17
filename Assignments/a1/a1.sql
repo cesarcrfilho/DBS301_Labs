@@ -1,3 +1,12 @@
+/*--------------------SENECA COLLEGE-----------------------------
+Student     : Cesar Rodrigues
+Student ID  : 127381168
+Email       : cda-conceicao-rodrig@myseneca.ca
+Date        : Oct 17 2017
+Class       : DBS301 - Database Design II and SQL Using Oracle
+Description : Assignment 01
+---------------------------------------------------------------*/
+
 -- 01) Display the customer number, customer name and country code for all the customers that are in . The country code for Germany is GER. 
 -- Please note that the user could have used GER, ger, GeR or any combination and not Germany.
 SELECT cust_no    AS "Customer Number",
