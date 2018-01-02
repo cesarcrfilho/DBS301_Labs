@@ -1,3 +1,11 @@
+/*--------------------SENECA COLLEGE-----------------------------
+Student     : Cesar Rodrigues
+Student ID  : 127381168
+Email       : cda-conceicao-rodrig@myseneca.ca
+Date        : Jan 02 2017
+Class       : DBS301 - Database Design II and SQL Using Oracle
+Description : Assignment 02
+---------------------------------------------------------------*/
 -- 1
 -- Division Table
 CREATE TABLE division (
